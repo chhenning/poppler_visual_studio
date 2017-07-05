@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pdf2html", "pdf2html\pdf2html.vcxproj", "{0854BDE5-8A19-4106-918A-2F98C5C9E830}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "global headers", "global headers", "{967FBE30-8885-4B96-8553-A51CB166062E}"
+	ProjectSection(SolutionItems) = preProject
+		config.h = config.h
+		poppler-config.h = poppler-config.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libGoo", "libGoo\libGoo.vcxproj", "{8D342E60-3CA8-4140-94D6-8C2C4951F82B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libPoppler", "libPoppler\libPoppler.vcxproj", "{C7F712BE-65A8-4C50-8900-02FD4C5C1B3D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libFofi", "libFofi\libFofi.vcxproj", "{D63B3EA8-E20C-42A8-8081-C291526B62BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0854BDE5-8A19-4106-918A-2F98C5C9E830}.Debug|x64.ActiveCfg = Debug|x64
+		{0854BDE5-8A19-4106-918A-2F98C5C9E830}.Debug|x64.Build.0 = Debug|x64
+		{0854BDE5-8A19-4106-918A-2F98C5C9E830}.Debug|x86.ActiveCfg = Debug|Win32
+		{0854BDE5-8A19-4106-918A-2F98C5C9E830}.Debug|x86.Build.0 = Debug|Win32
+		{0854BDE5-8A19-4106-918A-2F98C5C9E830}.Release|x64.ActiveCfg = Release|x64
+		{0854BDE5-8A19-4106-918A-2F98C5C9E830}.Release|x64.Build.0 = Release|x64
+		{0854BDE5-8A19-4106-918A-2F98C5C9E830}.Release|x86.ActiveCfg = Release|Win32
+		{0854BDE5-8A19-4106-918A-2F98C5C9E830}.Release|x86.Build.0 = Release|Win32
+		{8D342E60-3CA8-4140-94D6-8C2C4951F82B}.Debug|x64.ActiveCfg = Debug|x64
+		{8D342E60-3CA8-4140-94D6-8C2C4951F82B}.Debug|x64.Build.0 = Debug|x64
+		{8D342E60-3CA8-4140-94D6-8C2C4951F82B}.Debug|x86.ActiveCfg = Debug|Win32
+		{8D342E60-3CA8-4140-94D6-8C2C4951F82B}.Debug|x86.Build.0 = Debug|Win32
+		{8D342E60-3CA8-4140-94D6-8C2C4951F82B}.Release|x64.ActiveCfg = Release|x64
+		{8D342E60-3CA8-4140-94D6-8C2C4951F82B}.Release|x64.Build.0 = Release|x64
+		{8D342E60-3CA8-4140-94D6-8C2C4951F82B}.Release|x86.ActiveCfg = Release|Win32
+		{8D342E60-3CA8-4140-94D6-8C2C4951F82B}.Release|x86.Build.0 = Release|Win32
+		{C7F712BE-65A8-4C50-8900-02FD4C5C1B3D}.Debug|x64.ActiveCfg = Debug|x64
+		{C7F712BE-65A8-4C50-8900-02FD4C5C1B3D}.Debug|x64.Build.0 = Debug|x64
+		{C7F712BE-65A8-4C50-8900-02FD4C5C1B3D}.Debug|x86.ActiveCfg = Debug|Win32
+		{C7F712BE-65A8-4C50-8900-02FD4C5C1B3D}.Debug|x86.Build.0 = Debug|Win32
+		{C7F712BE-65A8-4C50-8900-02FD4C5C1B3D}.Release|x64.ActiveCfg = Release|x64
+		{C7F712BE-65A8-4C50-8900-02FD4C5C1B3D}.Release|x64.Build.0 = Release|x64
+		{C7F712BE-65A8-4C50-8900-02FD4C5C1B3D}.Release|x86.ActiveCfg = Release|Win32
+		{C7F712BE-65A8-4C50-8900-02FD4C5C1B3D}.Release|x86.Build.0 = Release|Win32
+		{D63B3EA8-E20C-42A8-8081-C291526B62BB}.Debug|x64.ActiveCfg = Debug|x64
+		{D63B3EA8-E20C-42A8-8081-C291526B62BB}.Debug|x64.Build.0 = Debug|x64
+		{D63B3EA8-E20C-42A8-8081-C291526B62BB}.Debug|x86.ActiveCfg = Debug|Win32
+		{D63B3EA8-E20C-42A8-8081-C291526B62BB}.Debug|x86.Build.0 = Debug|Win32
+		{D63B3EA8-E20C-42A8-8081-C291526B62BB}.Release|x64.ActiveCfg = Release|x64
+		{D63B3EA8-E20C-42A8-8081-C291526B62BB}.Release|x64.Build.0 = Release|x64
+		{D63B3EA8-E20C-42A8-8081-C291526B62BB}.Release|x86.ActiveCfg = Release|Win32
+		{D63B3EA8-E20C-42A8-8081-C291526B62BB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

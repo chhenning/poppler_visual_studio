@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Annot.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Array.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\BuiltinFont.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\BuiltinFontTables.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\CachedFile.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\CairoFontEngine.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\CairoOutputDev.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\CairoRescaleBox.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Catalog.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\CharCodeToUnicode.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\CharTypes.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\CMap.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\CompactFontTables.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\CurlCachedFile.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\CurlPDFDocBuilder.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\DateInfo.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\DCTStream.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Decrypt.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Dict.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Error.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\ErrorCodes.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\FileSpec.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\FlateEncoder.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\FlateStream.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\FontEncodingTables.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\FontInfo.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Form.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Function.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Gfx.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\GfxFont.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\GfxState.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\GfxState_helpers.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\GlobalParams.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Hints.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\JArithmeticDecoder.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\JBIG2Stream.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\JPEG2000Stream.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\JPXStream.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Lexer.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Linearization.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Link.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\LocalPDFDocBuilder.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\MarkedContentOutputDev.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Movie.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\NameToCharCode.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\NameToUnicodeTable.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Object.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\OptionalContent.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Outline.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\OutputDev.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Page.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\PageLabelInfo.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\PageLabelInfo_p.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\PageTransition.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Parser.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\PDFDoc.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\PDFDocBuilder.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\PDFDocEncoding.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\PDFDocFactory.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\PopplerCache.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\PreScanOutputDev.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\ProfileData.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\PSOutputDev.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\PSTokenizer.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Rendition.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\SecurityHandler.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\SignatureHandler.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\SignatureInfo.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Sound.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\SplashOutputDev.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\StdinCachedFile.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\StdinPDFDocBuilder.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Stream-CCITT.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\Stream.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\StructElement.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\StructTreeRoot.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\TextOutputDev.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\UnicodeCClassTables.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\UnicodeCompTables.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\UnicodeDecompTables.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\UnicodeMap.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\UnicodeMapTables.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\UnicodeTypeTable.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\UTF.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\UTF8.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\ViewerPreferences.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\XpdfPluginAPI.h" />
+    <ClInclude Include="..\..\poppler-0.56.0\poppler\XRef.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\Annot.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\Array.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\BuiltinFont.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\BuiltinFontTables.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\CachedFile.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\CairoFontEngine.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\CairoOutputDev.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\CairoRescaleBox.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\Catalog.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\CharCodeToUnicode.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\CMap.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\DateInfo.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\Decrypt.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\Dict.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\Error.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\FileSpec.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\FlateEncoder.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\FlateStream.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\FontEncodingTables.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\FontInfo.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\Form.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\Function.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\Gfx.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\GfxFont.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\GfxState.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\GlobalParams.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\Hints.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\JArithmeticDecoder.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\JBIG2Stream.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\Lexer.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\Linearization.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\Link.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\LocalPDFDocBuilder.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\MarkedContentOutputDev.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\Movie.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\NameToCharCode.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\Object.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\OptionalContent.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\Outline.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\OutputDev.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\Page.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\PageLabelInfo.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\PageTransition.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\Parser.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\PDFDoc.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\PDFDocEncoding.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\PDFDocFactory.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\PopplerCache.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\PreScanOutputDev.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\ProfileData.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\PSOutputDev.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\PSTokenizer.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\Rendition.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\SecurityHandler.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\SignatureInfo.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\Sound.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\SplashOutputDev.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\StdinCachedFile.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\StdinPDFDocBuilder.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\Stream.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\strtok_r.cpp" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\StructElement.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\StructTreeRoot.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\TextOutputDev.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\UnicodeMap.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\UnicodeTypeTable.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\UTF.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\ViewerPreferences.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\XpdfPluginAPI.cc" />
+    <ClCompile Include="..\..\poppler-0.56.0\poppler\XRef.cc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C7F712BE-65A8-4C50-8900-02FD4C5C1B3D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libPoppler</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\;D:\pdf\poppler-0.56.0;D:\pdf\poppler-0.56.0\goo;D:\vcpkg\installed\x64-windows\include;D:\vcpkg\installed\x64-windows\include\openjpeg-2.1</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
